@@ -44,15 +44,6 @@ public class QueryPlanHandler implements RequestStreamHandler {
     private LambdaLogger logger = null;
 
     /**
-     * Primarily for the purpose of testing the class.
-     *
-     * @param logger the lambda logger
-     */
-    public QueryPlanHandler(LambdaLogger logger) {
-        this.logger = logger;
-    }
-
-    /**
      * Handles the API requests from API Gateway
      * @param inputStream The input stream from the API Gateway.
      * @param outputStream The output stream back to the API gateway.
