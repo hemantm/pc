@@ -14,11 +14,7 @@ The service is deployed here [ElasticSearch Microservice](https://3dz2sv9fk6.exe
 The service provides a HTTP GET API and allows searching the plans by passing in a "field" and a "value" or simply a "scrollId".
 
 The following field values are special values for simplicity field=plan, field=sponsor and field=state. But you can search by any field if you know the field name. These field parameters map to the following fields in the schema
-| Field         | Schema Name            | 
-| ------------- | ---------------------- |
-| plan          | PLAN_NAME              |
-| sponsor       | SPONS_DFE_PN           |
-| state         | SPONS_DFE_MAIL_US_STATE|
+plan = PLAN_NAME, sponsor = SPONS_DFE_PN and state = SPONS_DFE_MAIL_US_STATE
 
 A value parameter will provide the string to search for the field.
 
