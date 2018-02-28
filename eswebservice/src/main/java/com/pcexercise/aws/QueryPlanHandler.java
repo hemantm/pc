@@ -1,4 +1,4 @@
-package com.pfexercise.aws;
+package com.pcexercise.aws;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,9 +11,9 @@ import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 
-import com.pfexercise.elasticsearch.ElasticSearchClient;
-import com.pfexercise.elasticsearch.QueryPlans;
-import com.pfexercise.elasticsearch.QueryPlansImpl;
+import com.pcexercise.elasticsearch.ElasticSearchClient;
+import com.pcexercise.elasticsearch.QueryPlans;
+import com.pcexercise.elasticsearch.QueryPlansImpl;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;

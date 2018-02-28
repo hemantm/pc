@@ -1,4 +1,4 @@
-package com.pfexercise.aws;
+package com.pcexercise.aws;
 
 import org.json.simple.JSONObject;
 

@@ -1,4 +1,4 @@
-package com.pfexercise.elasticsearch;
+package com.pcexercise.elasticsearch;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
